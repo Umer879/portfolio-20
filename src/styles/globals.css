@@ -1,0 +1,116 @@
+@import "tailwindcss";
+:root {
+  --bg-button: #ffae00;
+  --bg-body: #061d1e;
+}
+/* In styles/globals.css */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-body);
+}
+nav {
+  
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+.button {
+  background-color: #ffae00;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.about,
+.items,
+.profile,
+.hero-button,
+.box, .skill-items, .testimonial-item, .blog-container, .input-data, .contact-form {
+  border: 1px solid #ffffff1a;
+}
+.about:hover,
+.box:hover, .skill-items:hover, .testimonial-item:hover, .blog-container:hover {
+  border: 1px solid var(--bg-button);
+}
+@media screen and (min-width: 991px) {
+  .components {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    width: 60%;
+    padding-right: 60px;
+  }
+
+  .profile-container {
+    padding-left: 40px;
+    width: 40%;
+    position: sticky;
+    top: 0;
+    height: 110vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main{
+    width: 80vw;
+    margin: 30px auto 0 auto;
+  }
+  .profile-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .profile {
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+  }
+  .profile img {
+    height: 600px;
+  }
+  .icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 790px) {
+    .hero-text h1, h2{
+    font-size: 2rem;
+  }
+  
+  .main{
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  .profile img {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+  .profile-container{
+    width: 47%;
+  }
+  .main{
+    width: 53%;
+  }
+  
+}
+@media screen and (min-width: 992px) and (max-width: 1150px) {
+  .hero-text h1, h2{
+    font-size: 3rem;
+  }
+  .profile-container{
+    width: 43%;
+  }
+  .main{
+    width: 57%;
+  }
+  
+}
