@@ -10,9 +10,9 @@ import { useRouter } from 'next/navigation';
 const navItems = [
   { id: 'home', icon: <FaHome />, path: '#home' },
   { id: 'about', icon: <FaUser />, path: '#about' },
-  { id: 'settings', icon: <FaTools />, path: '#skill' },
-  { id: 'portfolio', icon: <FaBriefcase />, path: '#portfolio' },
-  { id: 'services', icon: <FaPaintBrush />, path: '#services' },
+  { id: 'settings', icon: <FaTools />, path: '#services' },
+  { id: 'portfolio', icon: <FaBriefcase />, path: '#skill' },
+  { id: 'services', icon: <FaPaintBrush />, path: '#portfolio' },
   { id: 'testimonial', icon: <FaQuoteRight />, path: '#testimonial' },
   { id: 'contact', icon: <FaEnvelope />, path: '#contact' },
 ];
