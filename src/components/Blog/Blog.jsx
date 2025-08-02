@@ -3,7 +3,7 @@ import React from 'react'
 const myBlog = [
     {
         id: 1,
-        image: '/assets/blog/img-1.avif',
+        image: '/assets/Bloging/img-1.avif',
         field: 'UI/UX',
         time: '3 min read',
         title: 'Designing for Better User Experience',
@@ -13,7 +13,7 @@ const myBlog = [
     },
     {
         id: 2,
-        image: '/assets/blog/img-2.avif',
+        image: '/assets/Bloging/img-2.avif',
         field: 'Frontend',
         time: '5 min read',
         title: 'Mastering Tailwind CSS in Projects',
@@ -23,7 +23,7 @@ const myBlog = [
     },
     {
         id: 3,
-        image: '/assets/blog/img-3.avif',
+        image: '/assets/Bloging/img-3.avif',
         field: 'JavaScript',
         time: '4 min read',
         title: 'Understanding Closures in JavaScript',
@@ -33,7 +33,7 @@ const myBlog = [
     },
     {
         id: 4,
-        image: '/assets/blog/img-4.avif',
+        image: '/assets/Bloging/img-4.avif',
         field: 'JavaScript',
         time: '4 min read',
         title: 'Understanding Closures in JavaScript',

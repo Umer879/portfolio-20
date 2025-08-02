@@ -16,7 +16,7 @@ const Portfolio = () => {
                     </h2>
                     <div className="overflow-hidden rounded-xl transition-all duration-500 ease-in-out">
                         <img
-                            src="/assets/portfolio/img-1.avif"
+                            src="/assets/MyPortfolio/img-1.avif"
                             alt=""
                             className="w-full h-auto transform transition-transform duration-500 ease-in-out hover:scale-110"
                         />
@@ -30,7 +30,7 @@ const Portfolio = () => {
     </h2>
     <div className="overflow-hidden rounded-xl transition-all duration-500 ease-in-out">
       <img
-        src="/assets/portfolio/img-2.avif"
+        src="/assets/MyPortfolio/img-2.avif"
         alt=""
         className="w-full h-auto transform transition-transform duration-500 ease-in-out hover:scale-110"
       />
@@ -43,7 +43,7 @@ const Portfolio = () => {
     </h2>
     <div className="overflow-hidden rounded-xl transition-all duration-500 ease-in-out">
       <img
-        src="/assets/portfolio/img-3.avif"
+        src="/assets/MyPortfolio/img-3.avif"
         alt=""
         className="w-full h-auto transform transition-transform duration-500 ease-in-out hover:scale-110"
       />
