@@ -35,21 +35,16 @@ const About = () => {
                 </span>{' '}
                 About Us
             </p>
-            <h1 className="font-semibold text-6xl mt-2">Crafting Seamless</h1>
+            <h1 className="font-semibold text-6xl mt-2">Building Seamless</h1>
             <h2 className="font-semibold text-6xl ms-12 my-4">
-                User{' '}
-                <span className="italic text-[#FFAE00] underline">Experiences</span>
+                Web{" "}
+                <span className="italic text-[#FFAE00] underline">Solutions</span>
             </h2>
 
             <div className="about my-10 bg-[#1f3735] py-3 px-5 rounded">
                 <h4 className="font-semibold text-2xl">Umer Gull </h4>
                 <p className="font-thin">
-                    Hi, I’m Umer Gull, a dedicated UI/UX Designer with 10 years of
-                    experience creating meaningful digital experiences. I specialize in
-                    crafting user-centered designs that enhance engagement and drive
-                    results. By combining research, creativity, and technical skills, I
-                    deliver solutions that not only look great but also function
-                    seamlessly.
+                    Hi, I’m  a passionate full-stack developer with 1 year of experience building modern, responsive, and high-performing web applications. I specialize in creating user-friendly interfaces backed by solid, efficient code. By combining clean design, problem-solving skills, and technical expertise, I deliver solutions that not only look great but also work flawlessly across devices.
                 </p>
             </div>
 

@@ -13,10 +13,10 @@ const Hero = () => {
     return (
         <div className='text-white pt-8 main xxl:px-40 px-5 py-10' id='home'>
             <div className='hero-text'>
-                <p className='flex'><span className='me-2'><img src="/assets/icon/icon-1.avif" alt="" /></span> Hi, I’m Umer, UI/UX Designer</p>
-                <h1 className='font-semibold text-6xl mt-2'>Designing Intuitive</h1>
-                <h2 className='font-semibold text-6xl ms-12 my-4'> Experiences <span className='italic text-[#FFAE00] underline' >Inspire</span></h2>
-                <p className='details text-end text-[12px] leading-[2]'>Your gateway to innovative design, seamless user experiences, and impactful <br /> solutions.Turning complex ideas into user-friendly designs.</p>
+                <p className='flex'><span className='me-2'><img src="/assets/icon/icon-1.avif" alt="" /></span> Hi, I’m Umer, Full Stack Developer</p>
+                <h1 className='font-semibold text-5xl mt-2'>From Design to Code</h1>
+                <h2 className='font-semibold text-5xl ms-12 my-4'> Building <span className='italic text-[#FFAE00] text-4xl underline' >the Web with Purpose</span></h2>
+                <p className='details text-end text-[12px] leading-[2]'> Innovative design, smooth experiences, and impactful solutions — transforming <br /> complex ideas into easy-to-use digital products.</p>
             </div>
             <div className="hero-section-2 flex justify-between items-center">
                 <motion.div className="hero-logo"
