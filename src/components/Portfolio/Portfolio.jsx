@@ -5,8 +5,8 @@ const Portfolio = () => {
         <section className='portfolio' id='portfolio'>
             <div className='hero-text'>
                 <p className='flex'><span className='me-2'><img src="/assets/icon/icon-1.avif" alt="" /></span> My Portfolio</p>
-                <h1 className='font-semibold text-6xl mt-2'>Innovation Designs</h1>
-                <h2 className='font-semibold text-6xl ms-12 my-4'>Real <span className='italic text-[#FFAE00] underline' >Results</span></h2>
+                <h1 className='font-semibold text-[50px] mt-2'>Frontend Magic</h1>
+                <h2 className='font-semibold text-[50px] ms-12 my-4'>and <span className='italic text-[#FFAE00] underline' >Backend Power</span></h2>
             </div>
             <div className="portfolio-container">
 

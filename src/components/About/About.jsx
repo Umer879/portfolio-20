@@ -1,29 +1,29 @@
 'use client';
-import { FaFigma, FaUserCheck, FaClipboardList } from 'react-icons/fa';
-import { MdOutlinePsychology } from 'react-icons/md';
+import { FaReact, FaNodeJs, FaDatabase, FaCloud } from 'react-icons/fa';
 import React from 'react';
 
 const data = [
-    {
-        icon: <FaFigma />,
-        title: 'UI/UX Design',
-        des: 'Designing intuitive, user-focused interfaces that prioritize functionality & seamless navigation.',
-    },
-    {
-        icon: <FaUserCheck />,
-        title: 'User Research & Prototyping',
-        des: 'Conducting in-depth user research and creating interactive prototypes to validate ideas and refine designs.',
-    },
-    {
-        icon: <FaClipboardList />,
-        title: 'Responsive Web Design',
-        des: 'Crafting designs adapt seamlessly across all devices ensuring and a consistent user experience.',
-    },
-    {
-        icon: <MdOutlinePsychology />,
-        title: 'Wireframing & Visual Design',
-        des: 'Creating detailed wireframes and visually stunning designs to bring ideas into focus.',
-    },
+   {
+    icon: <FaReact />,
+    title: 'Frontend Development',
+    des: 'Building responsive, dynamic, and user-friendly interfaces using React.js, Next.js, and modern UI frameworks.',
+},
+{
+    icon: <FaNodeJs />,
+    title: 'Backend Development',
+    des: 'Developing secure, scalable, and high-performance server-side applications with Node.js & Express.js.',
+},
+{
+    icon: <FaDatabase />,
+    title: 'Database & API Integration',
+    des: 'Designing and managing databases with MongoDB, and integrating RESTful & GraphQL APIs for seamless data flow.',
+},
+{
+    icon: <FaCloud />,
+    title: 'Deployment & DevOps',
+    des: 'Deploying applications on cloud platforms, managing servers, and ensuring smooth CI/CD workflows for scalability.',
+}
+
 ];
 
 const About = () => {
@@ -67,31 +67,32 @@ const About = () => {
             </div>
 
 
-            {/* Work & Experience */}
-            <div className="education mt-10 flex justify-between items-center flex-wrap">
-                <div className="work ">
-                    <h2 className='text-3xl'>Work & Experience</h2>
-                    <div className="box mt-5  p-5 rounded bg-[#1f3735]">
-                        <p>2012 - 2020</p>
-                        <h3 className='font-bold my-3'>UI/UX Designer</h3>
-                        <p>Creative Spart Agency</p>
-                        <p className='my-3'>2020 - present</p>
-                        <h3 className='mb-3 font-bolda'>Senior UI/UX Desinger</h3>
-                        <p>Visionary Tech</p>
-                    </div>
-                </div>
-                <div className="work ">
-                    <h2 className='text-3xl'>Education</h2>
-                    <div className="box mt-5 p-5 rounded  bg-[#1f3735]">
-                        <p>2012 - 2020</p>
-                        <h3 className='font-bold my-3'>Bachelor Degree in Graphic Design</h3>
-                        <p>Air University</p>
-                        <p className='my-3'>2013 - 2015</p>
-                        <h3 className='mb-3 font-bolda'>Master Degree in User Experiene Design</h3>
-                        <p>Massachusetts Institute of Technology (MIT)</p>
-                    </div>
-                </div>
-            </div>
+           {/* Work & Experience */}
+<div className="education mt-10 flex justify-between items-center flex-wrap">
+    <div className="work ">
+        <h2 className='text-3xl'>Work & Experience</h2>
+        <div className="box mt-5  p-5 rounded bg-[#1f3735]">
+            <p>2023 - 2024</p>
+            <h3 className='font-bold my-3'>Frontend Developer</h3>
+            <p>Pak Digital </p>
+            <p className='my-3'>2025 - Present</p>
+            <h3 className='mb-3 font-bolda'>Full Stack Developer</h3>
+            <p>Oxmite Digtal Ltd</p>
+        </div>
+    </div>
+    <div className="work ">
+        <h2 className='text-3xl'>Education</h2>
+        <div className="box mt-5 p-5 rounded  bg-[#1f3735]">
+            <p>2020 - 2024</p>
+            <h3 className='font-bold my-3'>Bachelor’s Degree in Computer Science</h3>
+            <p>Air University</p>
+            <p className='my-3'>2017 - 2020</p>
+            <h3 className='mb-3 font-bolda'>Intermediate in CS</h3>
+            <p>Harvard College of Commerce Science</p>
+        </div>
+    </div>
+</div>
+
         </div>
     );
 };

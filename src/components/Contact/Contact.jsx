@@ -11,12 +11,12 @@ const Contact = () => {
                 <span className="me-2">
                     <img src="/assets/icon/icon-1.avif" alt="" />
                 </span>{' '}
-                About Us
+                Contact Us
             </p>
-            <h1 className="font-semibold text-6xl mt-2">Crafting Seamless</h1>
-            <h2 className="font-semibold text-6xl ms-12 my-4">
-                User{' '}
-                <span className="italic text-[#FFAE00] underline">Experiences</span>
+            <h1 className="font-semibold text-[50px] mt-2">Let’s Build Something</h1>
+            <h2 className="font-semibold text-[50px] ms-12 mb-4">
+                Great{' '}
+                <span className="italic text-[#FFAE00] underline">together</span>
             </h2>
       </div>
 

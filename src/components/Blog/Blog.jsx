@@ -51,9 +51,9 @@ const Blog = () => {
                 </span>{' '}
                 Our Blog
             </p>
-            <h1 className="font-semibold text-6xl mt-2">Our Latest Blog Idea</h1>
-            <h2 className="font-semibold text-6xl ms-12 my-4">
-                UI/UX <span className="italic text-[#FFAE00] underline">Trends</span>
+            <h1 className="font-semibold text-[50px] mt-2">Our Latest Blog Idea</h1>
+            <h2 className="font-semibold text-[50px] ms-12 mb-4">
+                Coding  <span className="italic text-[#FFAE00] underline">Innovations</span>
             </h2>
 
             <section className="py-10 px-5">

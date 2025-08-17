@@ -41,8 +41,8 @@ const Skill = () => {
         <section className='skill my-10 ' id='skill'>
             <div className='hero-text'>
                 <p className='flex'><span className='me-2'><img src="/assets/icon/icon-1.avif" alt="" /></span> My Skill</p>
-                <h1 className='font-semibold text-6xl mt-2'>The Tools Behind</h1>
-                <h2 className='font-semibold text-6xl ms-12 my-4'>Exceptional <span className='italic text-[#FFAE00] underline' >Designs</span></h2>
+                <h1 className='font-semibold text-[50px] mt-2'>Tools & Technologies</h1>
+                <h2 className='font-semibold text-[50px] ms-12 my-4'>That <span className='italic text-[#FFAE00] underline' >Drive my Code</span></h2>
             </div>
             <div className="skill-container w-[80%] sm:w-full mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto">
                 {mySkill.map((skill, index) => (

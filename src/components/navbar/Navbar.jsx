@@ -30,7 +30,7 @@ export default function Navbar() {
     return (
         <>
             {/* Top Navbar */}
-            <nav className=" top-0 flex justify-between items-center lg:px-[60px] sm:px-[40px] px-3 py-3 bg-[#061D1E] z-50 h-20 shadow-md">
+            <nav className=" top-0 flex justify-between items-center lg:px-[60px] sm:px-[40px] px-3 py-3 bg-[#061D1E] z-50 h-20">
                 {/* Logo */}
                 <div className="text-2xl font-bold">
                     <img src="/assets/logo/logo1.webp" alt="Logo" className="w-[100px] lg:w-[150px]" />

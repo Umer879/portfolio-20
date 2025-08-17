@@ -3,34 +3,35 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
 const testimonials = [
-  {
-    id: 1,
-    name: "David Elson",
-    message: "Working with Alex was a game-changer for our brand. Their attention to detail and focus on creating a seamless user experience truly transformed our website. We’ve seen an incredible boost in user engagement and satisfaction.",
-    title: "Ezhe Source",
-    image: "/assets/testimonial/img-1.webp",
-  },
-  {
-    id: 2,
-    name: "Chris Glasser",
-    message: "Alex exceeded all expectations with their innovative designs and collaborative approach. Reality that perfectly resonates with our audience.",
-    title: "Auto Works",
-    image: "/assets/testimonial/img-2.webp",
-  },
-  {
-    id: 3,
-    name: "Rodger Struck",
-    message: "The designs delivered by [Your Name] were intuitive and engaging, making a significant difference in how users interacted with our platform.",
-    title: "Specialty Restaurant Group",
-    image: "/assets/testimonial/img-3.webp",
-  },
-  {
-    id: 4,
-    name: "Mary Freund",
-    message: "From wireframes to the final product, Alex brought creativity and functionality together beautifully. The final design not only looks fantastic but also works flawlessly across devices",
-    title: "Rink's",
-    image: "/assets/testimonial/img-3.webp",
-  },
+{
+  id: 1,
+  name: "David Elson",
+  message: "Working with Umer was a turning point for our business. His full stack expertise delivered a fast, scalable, and user-friendly website that boosted our performance and customer satisfaction.",
+  title: "Ezhe Source",
+  image: "/assets/testimonial/img-1.webp",
+},
+{
+  id: 2,
+  name: "Chris Glasser",
+  message: "Umer exceeded expectations with his clean code, problem-solving mindset, and seamless API integrations. Our web app now runs smoother than ever and perfectly serves our audience.",
+  title: "Auto Works",
+  image: "/assets/testimonial/img-2.webp",
+},
+{
+  id: 3,
+  name: "Rodger Struck",
+  message: "The solution delivered by Umer was powerful and reliable. His ability to handle both frontend and backend made our platform faster, more secure, and easier to use.",
+  title: "Specialty Restaurant Group",
+  image: "/assets/testimonial/img-3.webp",
+},
+{
+  id: 4,
+  name: "Mary Freund",
+  message: "From planning to deployment, Umer managed everything with precision. The final product is modern, fully responsive, and runs flawlessly across all devices.",
+  title: "Rink's",
+  image: "/assets/testimonial/img-3.webp",
+}
+
 ];
 
 const Testimonial = () => {
