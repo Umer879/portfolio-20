@@ -1,28 +1,28 @@
 import React from 'react'
 
 const data = [
-    {
-    title: 'Frontend Development',
-    des: 'Building modern, responsive, and interactive user interfaces with React.js, Next.js, and Tailwind CSS.',
-},
-{
-    title: 'Backend Development',
-    des: 'Developing secure, scalable, and high-performance server-side applications using Node.js & Express.js.',
-},
-{
-    title: 'Database Management',
-    des: 'Designing, integrating, and optimizing databases with MongoDB & SQL for smooth data handling.',
-},
-{
-    title: 'API Development & Integration',
-    des: 'Creating and connecting RESTful & GraphQL APIs to enable seamless communication between systems.',
-},
-{
-    title: 'Deployment & Maintenance',
-    des: 'Deploying applications on cloud platforms (AWS, Vercel, Netlify) and ensuring continuous performance & updates.',
-}
-
+  {
+   
+    title: "React & Next.js Development",
+    des: "Building fast, scalable, and interactive web applications using React.js and Next.js with modern best practices.",
+  },
+  {
+   
+    title: "UI/UX Design",
+    des: "Crafting clean, user-friendly, and visually appealing interfaces with a focus on user experience.",
+  },
+  {
+   
+    title: "Responsive Web Design",
+    des: "Developing websites that look great and work smoothly on all devices, from desktops to mobiles.",
+  },
+  {
+   
+    title: "Performance Optimization",
+    des: "Optimizing websites for speed, SEO, and smooth user interaction using modern frontend tools and techniques.",
+  },
 ];
+
 
 const services = () => {
     return (
@@ -30,7 +30,7 @@ const services = () => {
             <div className='hero-text'>
                 <p className='flex'><span className='me-2'><img src="/assets/icon/icon-1.avif" alt="" /></span> My Services</p>
                 <h1 className='font-semibold text-[50px] mt-2'>Building Scalable Solutions</h1>
-                <h2 className='font-semibold text-[50px] ms-12 my-4'>From <span className='italic text-[#FFAE00] underline' >Frontend to Backend</span></h2>
+                <h2 className='font-semibold text-[45px] ms-12 my-4'>From <span className='italic text-[#FFAE00] underline' >Frontend developement</span></h2>
             </div>
             {/* about-skill-section */}
             <div className="about-section-2 flex justify-between items-center gap-5 mt-20 flex-wrap">

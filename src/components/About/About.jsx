@@ -1,30 +1,30 @@
 'use client';
-import { FaReact, FaNodeJs, FaDatabase, FaCloud } from 'react-icons/fa';
+import { FaReact, FaPaintBrush, FaMobileAlt, FaRocket } from 'react-icons/fa';
 import React from 'react';
 
 const data = [
-   {
-    icon: <FaReact />,
-    title: 'Frontend Development',
-    des: 'Building responsive, dynamic, and user-friendly interfaces using React.js, Next.js, and modern UI frameworks.',
-},
-{
-    icon: <FaNodeJs />,
-    title: 'Backend Development',
-    des: 'Developing secure, scalable, and high-performance server-side applications with Node.js & Express.js.',
-},
-{
-    icon: <FaDatabase />,
-    title: 'Database & API Integration',
-    des: 'Designing and managing databases with MongoDB, and integrating RESTful & GraphQL APIs for seamless data flow.',
-},
-{
-    icon: <FaCloud />,
-    title: 'Deployment & DevOps',
-    des: 'Deploying applications on cloud platforms, managing servers, and ensuring smooth CI/CD workflows for scalability.',
-}
-
+  {
+    icon: <FaReact className="text-blue-500" />,
+    title: "React & Next.js Development",
+    des: "Building fast, scalable, and interactive web applications using React.js and Next.js with modern best practices.",
+  },
+  {
+    icon: <FaPaintBrush className="text-pink-500" />,
+    title: "UI/UX Design",
+    des: "Crafting clean, user-friendly, and visually appealing interfaces with a focus on user experience.",
+  },
+  {
+    icon: <FaMobileAlt className="text-green-500" />,
+    title: "Responsive Web Design",
+    des: "Developing websites that look great and work smoothly on all devices, from desktops to mobiles.",
+  },
+  {
+    icon: <FaRocket className="text-purple-500" />,
+    title: "Performance Optimization",
+    des: "Optimizing websites for speed, SEO, and smooth user interaction using modern frontend tools and techniques.",
+  },
 ];
+
 
 const About = () => {
     return (
@@ -44,7 +44,7 @@ const About = () => {
             <div className="about my-10 bg-[#1f3735] py-3 px-5 rounded">
                 <h4 className="font-semibold text-2xl">Umer Gull </h4>
                 <p className="font-thin">
-                    Hi, I’m  a passionate full-stack developer with 1 year of experience building modern, responsive, and high-performing web applications. I specialize in creating user-friendly interfaces backed by solid, efficient code. By combining clean design, problem-solving skills, and technical expertise, I deliver solutions that not only look great but also work flawlessly across devices.
+                    Hi, I’m  a passionate Frontend developer with 1 year of experience building modern, responsive, and high-performing web applications. I specialize in creating user-friendly interfaces backed by solid, efficient code. By combining clean design, problem-solving skills, and technical expertise, I deliver solutions that not only look great but also work flawlessly across devices.
                 </p>
             </div>
 
@@ -76,7 +76,7 @@ const About = () => {
             <h3 className='font-bold my-3'>Frontend Developer</h3>
             <p>Pak Digital </p>
             <p className='my-3'>2025 - Present</p>
-            <h3 className='mb-3 font-bolda'>Full Stack Developer</h3>
+            <h3 className='mb-3 font-bolda'>Frontend Developer</h3>
             <p>Oxmite Digtal Ltd</p>
         </div>
     </div>
@@ -86,7 +86,7 @@ const About = () => {
             <p>2020 - 2024</p>
             <h3 className='font-bold my-3'>Bachelor’s Degree in Computer Science</h3>
             <p>Air University</p>
-            <p className='my-3'>2017 - 2020</p>
+            <p className='my-3'>2018 - 2020</p>
             <h3 className='mb-3 font-bolda'>Intermediate in CS</h3>
             <p>Harvard College of Commerce Science</p>
         </div>

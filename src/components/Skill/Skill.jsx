@@ -1,40 +1,56 @@
 import React from 'react'
-import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { TbBrandNextjs } from 'react-icons/tb';
-import { SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si';
+import { SiTailwindcss, SiJavascript,  SiRedux, SiTypescript, SiFigma, SiBootstrap } from 'react-icons/si';
 
 const mySkill = [
-    {
-        icon: <FaReact className="text-sky-500" />,
-        percentage: "85%",
-        title: "React.js",
-    },
-    {
-        icon: <TbBrandNextjs className="text-black" />,
-        percentage: "80%",
-        title: "Next.js",
-    },
-    {
-        icon: <SiTailwindcss className="text-teal-400" />,
-        percentage: "90%",
-        title: "Tailwind CSS",
-    },
-    {
-        icon: <FaNodeJs className="text-green-600" />,
-        percentage: "75%",
-        title: "Node.js",
-    },
-    {
-        icon: <SiExpress className="text-[#ffae00]" />,
-        percentage: "70%",
-        title: "Express.js",
-    },
-    {
-        icon: <SiMongodb className="text-green-500" />,
-        percentage: "80%",
-        title: "MongoDB",
-    }
+  {
+    icon: <FaHtml5 className="text-orange-600" />,
+    percentage: "95%",
+    title: "HTML5",
+  },
+  {
+    icon: <FaCss3Alt className="text-blue-600" />,
+    percentage: "90%",
+    title: "CSS3",
+  },
+  {
+    icon: <SiJavascript className="text-yellow-400" />,
+    percentage: "85%",
+    title: "JS (ES6+)",
+  },
+  {
+    icon: <FaReact className="text-sky-500" />,
+    percentage: "85%",
+    title: "React.js",
+  },
+  {
+    icon: <TbBrandNextjs className="text-black" />,
+    percentage: "80%",
+    title: "Next.js",
+  },
+  {
+    icon: <SiTailwindcss className="text-teal-400" />,
+    percentage: "90%",
+    title: "Tailwind CSS",
+  },
+  {
+    icon: <SiBootstrap className="text-purple-600" />,
+    percentage: "80%",
+    title: "Bootstrap",
+  },
+  {
+    icon: <SiRedux className="text-violet-500" />,
+    percentage: "75%",
+    title: "Redux",
+  },
+  {
+    icon: <SiTypescript className="text-blue-500" />,
+    percentage: "70%",
+    title: "TypeScript",
+  },
 ];
+
 
 const Skill = () => {
     return (

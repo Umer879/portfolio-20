@@ -48,7 +48,7 @@ export default function Profile() {
           />
           <h2 className="text-2xl font-bold my-3">Umer Gull</h2>
           <p className="text-sm my-2 text-gray-200">
-            Hi, I’m Umer, a passionate Full Stack Developer with 1 year of experience building modern and user-friendly web applications
+            Hi, I’m Umer, a passionate Frontend Developer with 1 year of experience building modern and user-friendly web applications
           </p>
 
           {/* Social Icons */}
